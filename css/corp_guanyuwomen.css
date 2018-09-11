@@ -1,0 +1,77 @@
+
+body{
+        margin: 0;
+        padding: 0;           
+    }
+/*表头*/
+    header{
+        width: 100%;
+        height: 75px;
+        background: #292929;
+    }
+    .header_ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo{
+        background: url("../img/logo.jpg") no-repeat center;
+        background-size: 160px 50px;
+        width: 160px;
+        height: 55px;
+
+    }
+    .main_ul{
+        width: 720px;
+        height: 100%;
+
+    }
+    .header_li{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header_li li a{
+        font-size: 13px;
+        text-decoration: none;
+        color:#848484;
+    }
+/*内容*/
+    .neirong{
+        width: 100%;
+        height: 695px;
+        background: #292929;
+        padding-top: 1px;
+        margin-top: 1px ;
+    }
+    .tu{
+        width: 100%;
+        height:695px;
+        background: url("../img/guanyuwomen1.jpg") no-repeat center;
+        background-size:465px 465px;
+    }
+    .guanyuwomen{
+        font-size: 23px;
+        color: #fcfcfc;
+        margin-top: 110px;
+    }
+    .about{
+        font-size: 17px;
+        color: #bcbcbc;
+        margin-top:5px;
+        font-weight: normal;
+    }
+    .wenzi{
+        width: 80%;
+        font-size: 15px;
+        color: #bcbcbc;
+        margin-top: 40px;
+        font-weight: normal;
+    }
+    .mowei{
+        width: 100%;
+        height: 151px;
+        background: #292929;
+        padding-top: 1px;
+        margin-top: 1px 
+    }

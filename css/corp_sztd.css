@@ -1,0 +1,198 @@
+
+body{
+        margin: 0;
+        padding: 0;           
+    }
+/*表头*/
+    header{
+        width: 100%;
+        height: 75px;
+        background: #292929;
+    }
+    .header_ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo{
+        background: url("../img/logo.jpg") no-repeat center;
+        background-size: 160px 50px;
+        width: 160px;
+        height: 55px;
+
+    }
+    .main_ul{
+        width: 720px;
+        height: 100%;
+
+    }
+    .header_li{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header_li li a{
+        font-size: 13px;
+        text-decoration: none;
+        color:#848484;
+    }
+/*内容    */
+    .shizituandui{
+        width: 100%;
+        height: 945px;
+        background: #292929;
+        overflow:hidden;
+        position:relative;
+    }
+    .shizituandui a{
+        text-decoration: none;
+    }
+
+    .shizituanduiming{
+        
+        width: 90px;
+        height: 75px;
+        margin:0 auto;
+        padding-top: 75px;
+        text-decoration: none;
+        
+    }
+    .shezhi1{
+        font-size: 17px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .team{
+        font-size: 11px;
+        color: #bcbcbc;
+        text-align: center;
+    }
+    .xia1{
+        width: 85px;
+        height: 15px;
+        border-bottom: 2px solid #6bbcce;
+    }
+    .peixun1{
+        width: 1300px;
+        height: 400px;
+        margin:0 auto;
+        margin-top: 210px;
+        animation: shizituandui 10s ease-in-out 0s infinite normal;
+        bottom: -670px;
+        position: relative;
+        overflow: hidden;
+    }
+    .peixun1 li{
+        position: absolute;
+
+    }
+    @keyframes shizituandui{
+        0%{
+            opacity:0;
+        }
+        25%{
+            opacity:0.25;
+        }
+        50%{
+            opacity:0.5;
+        }
+        75%{
+            opacity:0.75;
+        }
+        100%{
+            opacity:1;
+        }
+
+    }
+    .peixun1 ul li a{
+        text-decoration: none;
+    }
+    .tu_1{
+        width: 100%;
+        height: 321px;
+        background:url("../img/tu_1.jpg") no-repeat center;
+        background-size: 433px 321px;
+    }
+    .tu_1:hover{
+        border-bottom: 3px solid #292929;
+    }
+    .tu_2{
+        width: 100%;
+        height: 321px;
+        background:url("../img/tu_2.jpg") no-repeat center;
+        background-size: 433px 321px;
+    }
+    .tu_2:hover{
+        border-bottom:3px solid #292929;
+    }
+    .tu_3{
+        width: 100%;
+        height: 321px;
+        background:url("../img/tu_3.jpg") no-repeat center;
+        background-size:433px 321px;
+    }
+    .tu_3:hover{
+        border-bottom:3px solid #292929;
+    }
+    .tu_4{
+        width: 100%;
+        height: 321px;
+        background:url("../img/tu_4.jpg") no-repeat center;
+        background-size: 443px 321px;
+
+    }
+    .tu_4:hover{
+        border-bottom:3px solid #292929;
+    }
+    .tuzi1{
+        
+        font-size: 20px;
+        color: #b7b7b7;
+        padding-top: 20px;
+    }
+    .tuxiaozi1{
+        font-size: 15px;
+        color: #7f7f7f;
+        padding-top: 10px;
+    }
+    .tuzi1:hover,.tuxiaozi1:hover{
+        color:#cecccc;
+    }
+    .leftBtn{
+        width: 41px;
+        height: 69px;
+        position: absolute;
+        left: 215px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-image: url("../img/jiantou.png");
+        background-position: -84px 0;
+
+    }
+    .leftBtn:hover{
+        background-position: 0 0;
+    }
+    .rightBtn{
+        width: 41px;
+        height: 69px;
+        position: absolute;
+        right: 210px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-image: url("../img/jiantou.png");
+        background-position: -123px 0;
+
+    }
+    .rightBtn:hover{
+        background-position: -42px 0;
+    }
+/*末尾    */
+/*  .mowei{
+        width: 100%;
+        height: 277px;
+        background: #292929;
+        padding-top: 1px;
+        margin-top: 1px 
+    }*/

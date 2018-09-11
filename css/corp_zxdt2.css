@@ -1,0 +1,113 @@
+
+body{
+        margin: 0;
+        padding: 0;           
+    }
+/*表头*/
+    header{
+        width: 100%;
+        height: 75px;
+        background: #292929;
+    }
+    .header_ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logo{
+        background: url("../img/logo.jpg") no-repeat center;
+        background-size: 160px 50px;
+        width: 160px;
+        height: 55px;
+
+    }
+    .main_ul{
+        width: 720px;
+        height: 100%;
+
+    }
+    .header_li{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header_li li a{
+        font-size: 13px;
+        text-decoration: none;
+        color:#848484;
+    }
+/*内容*/
+    .neirong{
+        width: 100%;
+        height: 895px;
+        background: #292929;
+        padding-top: 1px;
+        margin-top: 1px ;
+    }
+    /*.tu{
+        width: 100%;
+        height:695px;
+        background: url("../img/guanyuwomen1.jpg") no-repeat center;
+        background-size:465px 465px;
+    }*/
+    .kuang{
+        width: 80%;
+        height: 100%;
+        margin-left: 12%;
+    }
+    .guanyuwomen{
+        font-size: 23px;
+        color: #fcfcfc;
+        margin-top: 110px;
+    }
+    .about{
+        font-size: 17px;
+        color: #bcbcbc;
+        margin-top:5px;
+        font-weight: normal;
+    }
+    .wenzi{
+        width: 80%;
+        font-size: 15px;
+        color: #bcbcbc;
+        margin-top: 40px;
+        font-weight: normal;
+    }
+    .shang{
+        padding-top: 10px;
+    }
+    .tu a{
+        font-size: 17px;
+        text-decoration: none;
+        color:#bcbcbc;
+    }
+    .tu a div{
+        margin-top: 10px;
+    }
+    .tu a div:hover{
+        color: #3e3e3e;
+    }
+    .col-lg-2{
+        margin-top: 110px;
+        margin-right: 8%;
+    }
+    .col-lg-2 li{
+        margin-top:5px;
+        display: block;
+        border-bottom: 1px solid #636060;
+    }
+    .col-lg-2 a{
+        text-decoration: none;
+    }
+    
+    .col-lg-2 div{
+        font-size: 15px;
+        color:#fcfcfc;
+    }
+    /*.mowei{
+        width: 100%;
+        height: 151px;
+        background: #292929;
+        padding-top: 1px;
+        margin-top: 1px 
+    }*/
